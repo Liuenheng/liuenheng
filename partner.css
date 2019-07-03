@@ -1,0 +1,248 @@
+.bannerbg{
+	background: url("../images/culture_banner.jpg") no-repeat center;
+}
+
+.partner_service_text{
+  max-width: 797px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  text-align: center;
+	font-size: 14px;
+	color: #666;
+	line-height: 30px;
+}
+.partner_service_contain{
+  float: left;
+  margin-left: 100px;
+}
+.partner_service_contain1{
+  margin-left: 133px;
+}
+.partner_service{
+  width: 150px;
+  height: 150px;
+  background: url(../images/partner_service.jpg) no-repeat;
+}
+.partner_service1{
+  background-position: center 0;
+}
+.partner_service2{
+  background-position: center -150px;
+}
+.partner_service3{
+  background-position: center -300px;
+}
+.partner_service4{
+  background-position: center -450px;
+}
+
+.partner_service_contain span{
+  display: block;
+  font-size: 16px;
+  text-align: center;
+	color: #999;
+}
+
+
+
+
+
+
+.business_partnerbg{
+  background-color: #f5f5f5;
+}
+
+.business_partner_contain{
+	float: left;
+	width: 216px;
+	height: 110px;
+	margin-left: 30px;
+	background: url(../images/partner_partner.jpg) center no-repeat;
+}
+.business_partner_contain1{
+	margin-left: 0;
+	background-position: center 0px;
+}
+.business_partner_contain2{
+	background-position: center -110px;
+}
+
+.business_partner_contain3{
+	background-position: center -220px;
+}
+
+.business_partner_contain4{
+	background-position: center -330px;
+}
+
+.business_partner_contain5{
+	background-position: center -440px;
+}
+
+
+
+
+
+
+
+
+
+.partnerbg{
+	background: none;
+}
+.partner{
+  padding-bottom: 20px;
+}
+
+.bank{
+	float: left;
+	width: 200px;
+	height: 100px;
+	list-style: none;
+	background: url(../images/partner_bank.png) center no-repeat ;
+}
+.bank1{
+	background-position: center 0px;
+}
+.bank2{
+	background-position: center -100px;
+}
+.bank3{
+	background-position: center -200px;
+}
+.bank4{
+	background-position: center -300px;
+}
+.bank5{
+	background-position: center -400px;
+}
+.bank6{
+	background-position: center -500px;
+}
+.bank7{
+	background-position: center -600px;
+}
+.bank8{
+	background-position: center -700px;
+}
+.bank9{
+	background-position: center -800px;
+}
+.bank10{
+	background-position: center -900px;
+}
+.bank11{
+	background-position: center -1000px;
+}
+.bank12{
+	background-position: center -1100px;
+}
+@media (max-width: 768px) {
+	.bannerbg{
+		background: url("../images/phone_img_culture.jpg") no-repeat center;
+		background-size: cover;
+	}
+	/* .bannerbg{
+		height: 280px;
+		background: url("../images/phone_img_culture.jpg") no-repeat center;
+    background-size: 100% 100%;
+	}
+
+	.banner{
+		padding-top: 115px;
+	} */
+
+	.banner_title{
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.partner_service_wrap{
+		display: flex;
+		justify-content: space-between;
+	}
+	.partner_service_contain{
+		margin-left: 0;
+	}
+	.partner_service{
+		width: 75px;
+		height: 75px;	
+		background-size: 75px auto;
+	}
+	.partner_service_contain span{
+		font-size: 12px;
+	}
+	.partner_service2{
+		background-position: center -75px;
+	}
+	.partner_service3{
+		background-position: center -150px;
+	}
+	.partner_service4{
+		background-position: center -225px;
+	}
+	.partner_service_text{
+		font-size: 12px;
+		padding-bottom: 20px;
+	}
+
+	.partner_service_text{
+		line-height: 20px;
+	}
+	
+
+
+	.bankbg{
+		margin-top: 0;
+	}
+	.bankbg ul{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.bank{
+		width: 100px;
+		height: 50px;
+	}
+
+	.bank{
+		background-size: 100px auto;
+	}
+	.bank1{
+		background-position: center 0px;
+	}
+	.bank2{
+		background-position: center -50px;
+	}
+	.bank3{
+		background-position: center -100px;
+	}
+	.bank4{
+		background-position: center -150px;
+	}
+	.bank5{
+		background-position: center -200px;
+	}
+	.bank6{
+		background-position: center -250px;
+	}
+	.bank7{
+		background-position: center -300px;
+	}
+	.bank8{
+		background-position: center -350px;
+	}
+	.bank9{
+		background-position: center -400px;
+	}
+	.bank10{
+		background-position: center -450px;
+	}
+	.bank11{
+		background-position: center -500px;
+	}
+	.bank12{
+		background-position: center -550px;
+	}
+
+}

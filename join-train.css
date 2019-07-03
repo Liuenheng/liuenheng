@@ -1,0 +1,159 @@
+.bannerbg {
+  background: url("../images/culture_banner.jpg") no-repeat center;
+}
+
+.trainee_contain {
+  float: left;
+  width: 372px;
+  /* height: 324px; */
+  background-color: #0188cc;
+  margin-left: 40px;
+}
+
+.trainee_contain1 {
+  margin-left: 0;
+}
+
+.trainee_text {
+  font-size: 14px;
+  margin: 0 auto;
+  color: #ffffff;
+  padding: 28px 25px;
+}
+
+.staff_trainingbg {
+  background: url(../images/culture_training.png) center no-repeat;
+}
+
+.staff_training_contain {
+  position: relative;
+  margin-left: 560px;
+}
+
+.staff_training_block {
+  position: relative;
+  width: 660px;
+}
+
+.training_block_left {
+  position: relative;
+  float: left;
+  padding: 7px 0 0 42px;
+  line-height: 47px;
+  font-size: 53px;
+  color: #0188cc;
+}
+
+.training_block_right {
+  float: left;
+  /* width: 517px; */
+  padding: 32px 0 0 20px;
+}
+
+.training_block_right .text1 {
+  line-height: 20px;
+  font-size: 20px;
+  color: #0188cc;
+}
+
+.training_block_right .text2 {
+  padding-top: 13px;
+  max-width: 517px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.training_block_left::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 18px;
+  top: 26px;
+  left: 0px;
+  border: solid 1px #0188cc;
+  border-radius: 100%;
+}
+
+.training_block_left::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  top: 31px;
+  left: 5px;
+  background-color: #0188cc;
+  border-radius: 100%;
+}
+
+.staff_training_line {
+  position: absolute;
+  width: 2px;
+  background-color: #0188cc;
+  left: 9px;
+  top: 0;
+  bottom: 0;
+}
+
+.manager_training_text {
+  float: left;
+  padding: 40px 0 0 62px;
+  max-width: 450px;
+
+}
+
+.manager_training_text p {
+  padding-bottom: 30px;
+}
+
+.manager_training_img {
+  float: left;
+  margin: 4px 0 0 70px;
+  width: 540px;
+}
+
+@media screen and (max-width: 768px) {
+  .bannerbg {
+    height: 280px;
+    background: url(../images/phone_img_culture.jpg) no-repeat center;
+    background-size: 100% 100%;
+  }
+  .trainee_contain{
+    float: none;
+    width: auto;
+    margin-left: 0;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+  }
+  .trainee_contain:last-child{
+    margin-bottom: 0;
+  }
+  .trainee_text{
+    padding: 15px;
+    color: #333;
+  }
+  .staff_trainingbg{
+    background: url(../images/phone_img_join.jpg);
+    background-size: cover;
+  }
+  .manager_training_text{
+    max-width: none;
+    float: none;
+    padding:0;
+  }
+  .manager_training_img{
+    float: none;
+    margin:0 20px;
+    width: auto;
+  }
+  .staff_training_contain{
+    margin-left: 0;
+  }
+  .manager_training_text p{
+    font-size: 12px;
+    padding-bottom: 25px;
+    line-height: 24px;
+  }
+
+}

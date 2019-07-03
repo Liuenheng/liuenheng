@@ -1,0 +1,63 @@
+.bannerbg {
+  background: url("../images/success-case-banner.png") no-repeat center;
+}
+
+.banner {
+  text-align: unset;
+}
+
+.banner_title {
+  margin: 0;
+  max-width: 516px;
+}
+
+.project_overview_img{
+  float: left;
+  width: 519px;
+  height: 427px;
+}
+
+.project_overview_text {
+  float: left;
+  max-width: 545px;
+  margin: 47px 0 0 133px;
+  font-size: 14px;
+  color: #666;
+}
+
+.project_overview_text p {
+  padding-bottom: 20px;
+}
+
+.solutionbg {
+  background-color: #f5f5f5;
+}
+
+
+.solution_img {
+  width: 565px;
+  height: 490px;
+  background: #666;
+}
+
+
+.architecture_diagram_img {
+  width: 1200px;
+  height: 560px;
+  background: #666;
+}
+
+.program_advantagebg {
+  background-color: #f5f5f5;
+}
+
+.program_advantage>p{
+  float: left;
+  margin-left: 48px;
+  width: 368px;
+  height: 260px;
+  background: #666;
+}
+.program_advantage .img1{
+  margin-left: 0;
+}
