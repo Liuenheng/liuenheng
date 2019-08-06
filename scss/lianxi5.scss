@@ -1,0 +1,107 @@
+.wh {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  background-color: aqua;
+}
+
+.one_six {
+  border: red 1px solid;
+  border-radius: 100%;
+  box-shadow: 4px 4px 4px black;
+  /* background-color: rgba(3, 3, 3, 1.8); */
+  /* 三个参数分别表示色调、饱和度、透明度 */
+  background-color: hsla(182, 44%, 76%, .5);
+}
+
+.two_one {
+  background: url(../images/phone_banner.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: red;
+  font: {
+    weight:700;
+    size: 28px;
+  }
+}
+.two_two{
+  line-height: 20px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  color: red;
+  text-shadow: 5px 5px 5px salmon;
+  text-indent: 2cm;
+  word-break: break-all;
+}
+.bd1{
+  border-radius: 3ch;
+}
+.bd2{
+  border-radius: 3em;
+}
+.box{
+  margin: 10px 13px 15px 15px;
+  padding: 10px 13px 15px 18px;
+  box-shadow: 4px 4px 4px 4px red;
+  //怪异盒子模型，width=内容区域+boeder+padding
+  box-sizing: border-box;
+}
+.weilei a{
+  color: black;
+}
+
+.weilei1:link{
+  color: red;
+}
+.weilei2:visited{
+  color: blue;
+}
+.weilei3:hover{
+  color: yellow;
+}
+.weilei4:active{
+  color: yellowgreen;
+}
+.relative{
+  position: relative;
+  background-color: blue;
+}
+.absolute{
+  position: absolute;
+  background-color: aqua;
+}
+.float{
+  float: left;
+}
+.clear{
+  content: "";
+  clear: both;
+  display: block;
+}
+.overflow{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;//不换行
+  word-break: break-all;//强制换行
+}
+.fixed{
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 50%;
+background-color: red;
+cursor: copy;
+}
+.static{
+  position: static;
+  cursor: cell;
+}
+.cursor{
+  cursor: wait ;
+}
+.cursor:hover{
+  background:red;
+  border: 3px black solid;
+}

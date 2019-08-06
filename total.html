@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="./scss/lianxi5.css">
+</head>
+
+<body id="body">
+  <div class="wh one_six"></div>
+  <div class="wh two_one">哈哈哈哈</div>
+  <div class="wh two_two">文本hahahkjsh lshjak文本文本文本文本文本文本文本问问文本文本文本文本文本文本文本文本问问文本文本文本文本文本文本文本文本问问</div>
+  <div class="wh bd1"></div>
+  <div class="wh bd2"></div>
+  <div class="wh box"></div>
+  <p>margin会有两个问题：
+    1.margin坍塌
+    2.margin合并
+    解决方案
+    1.把父级变成bfc元素；
+    2.给div加一个边框。
+    margin合并问题，就取其中的最大值。</p>
+  <xmp>
+    h5语义化标签
+    区别：1.默认样式不一样
+    2.有SEO优化作用
+
+    1、header，一般作为网页的头部使用
+    2、aside，侧边栏
+    3、nav，导航栏
+    4、address，地址，字体样式默认倾斜
+    <address> 标签定义文档或文章的作者/拥有者的联系信息。
+      如果 <address> 元素位于
+
+        <body> 元素内，则它表示文档联系信息。
+          如果 <address> 元素位于 <article> 元素内，则它表示文章的联系信息。
+              5、section，代表某一个区域，分区，页面或者文档的一部分区域，有独立的内容，但结构相近，就可以用section，范围比div大，语义比div更强，可以包含header、h1-h6……凸显语义的标签
+              6、article，独立的内，可以是文章、blog、帖子、短文或者回复、评论
+              7、footer，网站的底部
+              8、hgroup，专门用来包含标题h标签的分组
+              9、<details open>
+                <summary></summary>
+              </details>
+              细节、详情
+              open属性：默认展开
+              summary相当于详情的标题
+              10、<dialog open></dialog>对话框，不写open不显示
+              11、<figure>图像区域：可以包含多个图片或者一个figcaption，figcation用来表示图片标题
+                <figcaption></figcaption>图像的标题：一般写在figure内
+                <div></div>图像的内容
+              </figure>
+              12、mark和time
+              mark，有特殊效果，突出显示部分文本，背景默认黄色；time，没有特殊效果。是给浏览器看的，仅供浏览器抓取信息抓的更准确。
+              13.meter，定义已知范围或分数值内的标量测量，IE不支持
+              14、progress，运行中或下载的进度
+              15、ruby，给一个解释
+              16、三种引用
+              cite：行元素，字体倾斜
+              blockquote：块元素，默认上下一个字的间距，左右40px的margin
+              q：块元素，带引号的引入
+              17、两种格式化代码
+              code，把换行和空格给格式化显示
+              pre，我们怎么写的就能怎么显示
+  </xmp>
+
+  <!-- 什么是SEO？
+SEO（Search Engine Optimization，搜索引擎优化 ），是一种利用搜索引擎的搜索规则来提高目的网站在有关搜索引擎内的排名的方式。通俗来讲就是根据搜素引擎的规则来优化你的网站，让你的网站能够在用户的搜索结果中排在前面，提高网站的访问量。
+ -->
+  <!-- TDK优化
+ 一、title:title的分隔符一般有,，_，-和空格。其中_对百度比较友好，而-对谷歌比较友好，空格在英文站点可以使用但中文少用。
+ 二、description:网站首页、频道页、产品参数页等没有大段文字可以用做摘要的网页最适合使用description
+ 三、keywords:SEO的核心思想是每个页面抓住几个关键字（一般不超过5个）进行核心优化，所以设定与本页内容相关的主关键词一到三个就可以了。
+ <meta name="keywords" content="阿里巴巴，批发网，1688，批发市场，批发，采购，微商，微店，货源"/> -->
+
+  <p>
+    !important>行内样式（最高级）>id选择器>类选择器>标签选择器
+  </p>
+  <!-- 链接锚点 -->
+
+
+  <p class="weilei">常用伪类
+    <a href="" class="weilei1"> 1.a:link</a>
+    <a href="" class="weilei2"> 2.a:visited</a>
+    <a href="" class="weilei3">3.a:hover</a>
+    <a href="" class="weilei4"> 4.a:active</a>
+  </p>
+<p>块的特征<br />
+
+默认独占一行<br />
+没有宽度时默认撑满一行<br />
+支持所有的css命令<br />
+内嵌的特征<br />
+
+同行可以连续跟同类的标签<br />
+内容撑开宽度<br />
+不支持宽高<br />
+不支持上下的内外边距<br />
+代码换行被解析<br />
+块与内嵌的转换<br />
+
+display:block  显示为块 使内联元素具备快属性标签的特性<br />
+
+display:inline  显示为内嵌 使行块属性标签具备内联元素的特性<br />
+
+display :inline-block<br />
+
+inline-block 的特点和问题<br />
+
+特性：<br />
+
+块在一行显示<br />
+
+行内属性支持宽高<br />
+
+没有宽度时内容撑开宽度</p>
+<div class="wh">
+  <a href="#body">1</a>
+  <a href="https://wwww.baidu.com">百度</a>
+  <a href='url' download="filename.ext">下载</a>
+</div>
+<script>
+  document.execCommand('insertHTML', false, '<xmp>' + pasteText + '</xmp>')
+</script>
+<p>标签划分为：单标签、双标签、块标签、行内标签、行内块标签</p>
+<p>控制标签类型的样式:
+  display：block块级/inline行内/inline-block行内块/none隐藏</p>
+
+<p>course设置：<br />
+  div{ cursor:default }默认正常鼠标指针<br />
+  div{ cursor:hand }和div{ cursor:text } 文本选择效果<br />
+  div{ cursor:move } 移动选择效果<br />
+  div{ cursor:pointer } 手指形状 链接选择效果<br />
+  div{ cursor:url(url图片地址) }设置对象为图片</p>
+  <div class="wh">
+  <p class="relative">css相对定位：在使用相对定位时会保留当前元素原本的位置，所以当移动了他的位置时，会导致他覆盖了其他元素。</p>
+  <p class="absolute">css绝对定位：在使用绝对定位时，原本的元素位置消失，在根据父级的位置来设置他的位置</p>
+</div>
+<p class="float">浮动就是指脱离文档的左浮动和右浮动</p>
+<!-- 清楚浮动 -->
+<div class="float clear">
+<p style="float: left">左左左左左左左</p>
+<p style="float: right">右右右右右右右</p>
+</div>
+<!-- 如何触发bfc元素 -->
+<!-- 下列情况将创建一个块格式化上下文：
+
+根元素或其它包含它的元素;
+浮动 (元素的 float 不为 none);
+绝对定位元素 (元素的 position 为 absolute 或 fixed);
+行内块 inline-blocks (元素的 display: inline-block);
+表格单元格 (元素的 display: table-cell，HTML表格单元格默认属性);
+表格标题 (元素的 display: table-caption, HTML表格标题默认属性);
+ overflow 的值不为 visible的元素;
+弹性盒子 flex boxes (元素的 display: flex 或 inline-flex); -->
+<div class="wh overflow">
+  <p>哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+</div>
+<div class="fixed"></div>
+<div class="wh static"></div>
+<p>z-index覆盖的规则： 子元素永远不可能被父元素覆盖
+
+  兄弟之间，层次高的覆盖层次低的
+
+  兄弟之间层次一样。是写在下面的层次覆盖上面的层次</p>
+  <p></p>
+  <div class="wh cursor">pointer</div>
+  <div class="wh"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

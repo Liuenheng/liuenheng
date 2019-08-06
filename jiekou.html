@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="./js/jquery.js"></script>
+</head>
+
+<body>
+  <h2>JavaScript 创建 JSON 对象</h2>
+  <p>
+    网站名称: <span id="jname"></span><br />
+    网站地址: <span id="jurl"></span><br />
+    网站 slogan: <span id="jslogan"></span><br />
+  </p>
+  <script>
+    // get()方式
+    //  alert(1)
+
+    // $(document).ready(function () {
+    //   $.ajax({
+    //     url: './js/json.json',
+    //     type: 'get',
+    //     // dataType: 'JSON',
+    //     success: function (data) {
+    //       alert(data)
+    //     },
+    //     error: function (error) {
+    //       console.log(error)
+    //     }
+    //   })
+    // });
+
+
+
+    // var script = document.createElement('script');
+    // script.type = 'text/javascript';
+
+    // // // 传参并指定回调执行函数为getData
+    // script.src = './js/json.js';
+    // document.body.appendChild(script);
+    // // // 回调执行函数
+    // function handleData(res) {
+    //     data = JSON.stringify(res)
+    //     console.log(data);
+    // }
+
+    var JSONObject = {
+      // "name":"菜鸟教程",
+      // "url":"www.runoob.com", 
+      // "slogan":"学的不仅是技术，更是梦想！"
+      "col1": {
+        "title": "校园资讯",
+        "url": "/web/xiaoyuanzixun/list_1.html",
+        "list": [{
+            "title": "20路的都市传说：附中站，",
+            "url": "/web/xiaoyuanzixun/20190611/29.html",
+            "img": "/uploads/190612/2-1Z612234250211.jpg"
+          }, {
+            "title": "漫步陶淑女校旧址，听老",
+            "url": "/web/xiaoyuanzixun/20190611/24.html",
+            "img": "/uploads/190612/2-1Z612234211292.jpg"
+          }, {
+            "title": "师大里不打烊的图书馆，",
+            "url": "/web/xiaoyuanzixun/20190611/30.html",
+            "img": "/uploads/190612/2-1Z612233T54F.jpg"
+          }, {
+            "title": "不完全统计 | 毕业生租房",
+            "url": "/web/xiaoyuanzixun/20190611/27.html",
+            "img": "/uploads/190612/2-1Z612191021257.jpg"
+          }
+        ]
+      },
+    };
+    document.getElementById("jname").innerHTML = JSONObject.col1.title
+    document.getElementById("jurl").innerHTML = JSONObject.col1.list
+    document.getElementById("jslogan").innerHTML = JSONObject.col1.list.img
+  </script>
+</body>
+
+</html>
