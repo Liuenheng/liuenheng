@@ -1,0 +1,77 @@
+.clear{
+  content: "";
+  zoom: 1;
+  clear: both;
+  display: block;
+}
+.wh{
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: bisque;
+}
+.bg1{
+  background-color: aqua;
+  background-clip: content-box;
+  padding: 10px;
+}
+.bg2{
+  background-color: aquamarine;
+  background-origin: border-box;
+}
+.felx{
+  // width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.box{
+  margin-top: 50px;
+display: -webkit-box;
+  // 没有浏览器支持此属性
+  -webkit-box-orient :vertical;
+//   horizontal	在水平行中从左向右排列子元素。	
+// vertical	从上向下垂直排列子元素。	
+// inline-axis	沿着行内轴来排列子元素（映射为 horizontal）。	
+// block-axis	沿着块轴来排列子元素（映射为 vertical）。
+// inherit	应该从父元素继承 box-orient 属性的值。
+  // -webkit-box-direction: reverse;
+box-pack:end;
+-webkit-box-align: baseline;
+// start	
+// 对于正常方向的框，每个子元素的上边缘沿着框的顶边放置。
+
+// 对于反方向的框，每个子元素的下边缘沿着框的底边放置。
+// end	
+// 对于正常方向的框，每个子元素的下边缘沿着框的底边放置。
+
+// 对于反方向的框，每个子元素的上边缘沿着框的顶边放置。
+
+// center	均等地分割多余的空间，一半位于子元素之上，另一半位于子元素之下。
+// baseline	如果 box-orient 是inline-axis或horizontal，所有子元素均与其基线对齐。	
+// stretch	拉伸子元素以填充包含块
+}
+.wh1{
+  //根据指定的子元素来显示顺序
+  box-ordinal-group: 2;
+  //根据设定来表示子元素站的比例
+  box-flex: 1;
+}
+.boxtwo{
+  display: flex;
+  width: 1000px;
+  height: 400px;
+}
+.wh2{
+  // flex: 1;
+  margin: auto;
+  // order数值越小排列越前，默认为0，可设置负值；
+  // order: -1;
+}
+.boxthree{
+  width: 300px;
+  background-color: red;
+  height: 200px;
+  //fr代表所占比例
+  grid-template-columns: auto 1fr 1fr 1fr;
+}

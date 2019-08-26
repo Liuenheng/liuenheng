@@ -11,11 +11,13 @@
 
 <body>
   <h2>JavaScript 创建 JSON 对象</h2>
-  <p>
+  <div>
     网站名称: <span id="jname"></span><br />
     网站地址: <span id="jurl"></span><br />
     网站 slogan: <span id="jslogan"></span><br />
-  </p>
+  </div>
+  <p>I would like to say: </p>
+  
   <script>
     // get()方式
     //  alert(1)
@@ -75,10 +77,19 @@
         ]
       },
     };
+
     document.getElementById("jname").innerHTML = JSONObject.col1.title
-    document.getElementById("jurl").innerHTML = JSONObject.col1.list
-    document.getElementById("jslogan").innerHTML = JSONObject.col1.list.img
+    document.getElementById("jurl").append(JSONObject)
+    document.getElementById("jslogan").innerHTML = JSONObject.col1.list[0].img
+    // $("p").append(JSONObject.col1.list[0].title);
+
+    // for(var i=0; i<JSONObject.col1.list.length;i++){
+    // $("p").append("<p>JSONObject.col1.list[i].title<p>");
+    
+    // }
   </script>
+   
+
 </body>
 
 </html>

@@ -123,5 +123,9 @@
 table {
   width: 100%;
   border: 1px solid red;
+  -webkit-column-span: 0;
+          column-span: 0;
+  border-collapse: separate;
+  border-spacing: 5px;
 }
 /*# sourceMappingURL=lanmu.css.map */
